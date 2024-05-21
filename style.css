@@ -1,0 +1,128 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+body {
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark grey text */
+    font-family: Arial, sans-serif; /* Modern, sans-serif font */
+   }
+   h1 {
+    color: #007BFF; /* Bright blue */
+    text-align: center; /* Center-align text */
+   }
+   p, li {
+    padding: 8px;
+    line-height: 1.6; /* Makes text easier to read */
+    margin-top: 10px; /* Added margin above paragraphs */
+    margin-bottom: 15px; /* Added margin below paragraphs */
+   }
+   h2 {
+    font-size: 28px; /* Increased front size to 28px */
+    border-bottom: 3px solid #007BFF; /* Thicker blueline under headers */
+    margin-bottom: 20px; /*Added margin below headers */
+   }
+   table {
+    width: 100%;
+    border-collapse: collapse;
+   }
+   th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+   }
+   th {
+    background-color: #f4f4f4;
+   }
+   form {
+    margin-top: 20px;
+   }
+   input, button {
+    padding: 10px;
+    margin: 5px;
+   }
+   button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+   }
+   button:hover {
+    background-color: #0056b3;
+   }
+   form {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start; /* Align items to the start of the flex container */
+   }
+   label, input {
+    flex: 1; /* Allow input and label to fill the space */
+   }
+/* Navigation Bar Styles */
+nav {
+    background-color: #1e853d;
+    color: #ffffff;
+    padding: 10px;
+  }
+  @media (max-width: 768px) {
+    nav ul {
+    flex-direction: column; /* Stack the navigation items vertically on smaller screens */
+    }
+    h1, p {
+    text-align: center; /* Center-align text for better mobile readability */
+    }
+   }
+   
+
+   table {
+    width: 100%;
+    border-collapse: collapse;
+   }
+   th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+   }
+   th {
+    background-color: #f4f4f4;
+   }
+   form {
+    margin-top: 20px;
+   }
+   input, button {
+    padding: 10px;
+    margin: 5px;
+   }
+   button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+   }
+   button:hover {
+    background-color: #0056b3;
+
+    form {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        align-items: flex-start; /* Align items to the start of the flex container */
+       }
+       label, input {
+        flex: 1; /* Allow input and label to fill the space */
+       }
+       
+
+
+a, button {
+    padding: 15px;
+    font-size: 16px; /* Larger font size for better readability */
+       }
+    
+ @media (max-width: 768px) {
+    nav ul {
+    flex-direction: column; /* Stack the navigation items vertically on smaller screens */
+     }
+    h1, p {
+    text-align: center; /* Center-align text for better mobile readability */
+    }
+       }
+       
